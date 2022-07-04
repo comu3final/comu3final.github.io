@@ -133,13 +133,13 @@ section {
   display: none;
 }
 
-.home {
+.inicio {
   margin: 0 auto;
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
   background: linear-gradient($black-bg, $black-bg),
-    url(../images/home-bg.jpg) no-repeat;
+    url(../images/inicio-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -217,7 +217,7 @@ section {
   }
 }
 
-.about {
+.fuentes {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -276,7 +276,7 @@ section {
   }
 }
 
-.destination .box-container {
+.integrantes .box-container {
   @include grid(27rem);
 
   .box {
@@ -332,7 +332,7 @@ section {
   }
 }
 
-.services .box-container {
+.tips .box-container {
   @include grid(32rem);
 
   .box {
@@ -366,7 +366,7 @@ section {
   }
 }
 
-.gallery .box-container {
+.Infografías .box-container {
   columns: 3 25rem;
   column-gap: 1.5rem;
 
@@ -469,7 +469,7 @@ section {
   }
 }
 
-.blogs .box-container {
+.Contacto .box-container {
   @include grid(32rem);
 
   .box {
@@ -709,7 +709,7 @@ section {
     }
   }
 
-  .home {
+  .inicio {
     margin-top: 10rem;
 
     .content {
@@ -729,7 +729,7 @@ section {
     font-size: 50%;
   }
 
-  .about .content h3 {
+  .fuentes .content h3 {
     font-size: 3.5rem;
   }
 
@@ -737,3 +737,4 @@ section {
     font-size: 2.7rem;
   }
 }
+
